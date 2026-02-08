@@ -1,7 +1,7 @@
 # mod_teamsmeeting - Microsoft Teams Meeting for Moodle
 
 Moodle activity module that creates Microsoft Teams meetings directly from your courses. **Works on ALL browsers** including Chrome on university/corporate networks.
-
+Built By Ilyas Akkus
 ## Why This Plugin?
 
 The existing [`mod_msteams`](https://moodle.org/plugins/mod_msteams) plugin loads the meeting creation app inside an **iframe**. This breaks on Chrome due to:
@@ -19,7 +19,7 @@ This plugin solves all of these by using a **popup window** instead of an iframe
 │  Moodle Course → Add Activity → Teams Meeting       │
 │                                                     │
 │  ┌───────────────────────────────────────────────┐  │
-│  │  "Teams Toplantısı Oluştur" button            │  │
+│  │  "Create Teams Meeting" button            │  │
 │  └────────────────────┬──────────────────────────┘  │
 │                       │ window.open()                │
 │                       ▼                              │
@@ -122,7 +122,7 @@ Unlike plugins that use the Microsoft Graph API directly, this plugin delegates 
 1. Navigate to your course
 2. Turn editing on → **Add an activity or resource** → **Teams Meeting**
 3. Enter a meeting name
-4. Click **"Teams Toplantısı Oluştur"** (Create Teams Meeting)
+4. Click **"Create Teams Meeting"** (Create Teams Meeting)
 5. A popup opens with the Enovation meeting app:
    - Sign in with your Microsoft account
    - Create the meeting
